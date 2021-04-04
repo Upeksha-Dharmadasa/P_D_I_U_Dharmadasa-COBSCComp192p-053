@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0457F521261A47F200BA022F /* P_D_I_U_Dharmadasa-COBSCComp192p-053.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P_D_I_U_Dharmadasa-COBSCComp192p-053.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0457F521261A47F200BA022F /* Café-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Café-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457F524261A47F200BA022F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0457F526261A47F200BA022F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0457F528261A47F200BA022F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		0457F522261A47F200BA022F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0457F521261A47F200BA022F /* P_D_I_U_Dharmadasa-COBSCComp192p-053.app */,
+				0457F521261A47F200BA022F /* Café-Manager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "P_D_I_U_Dharmadasa-COBSCComp192p-053";
 			productName = "P_D_I_U_Dharmadasa-COBSCComp192p-053";
-			productReference = 0457F521261A47F200BA022F /* P_D_I_U_Dharmadasa-COBSCComp192p-053.app */;
+			productReference = 0457F521261A47F200BA022F /* Café-Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upekshaD.P-D-I-U-Dharmadasa-COBSCComp192p-053";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Café-Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upekshaD.P-D-I-U-Dharmadasa-COBSCComp192p-053";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Café-Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
