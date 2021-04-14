@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C675100001952001AFA47 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042C675000001952001AFA47 /* background.jpg */; };
 		0457F525261A47F200BA022F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457F524261A47F200BA022F /* AppDelegate.swift */; };
 		0457F527261A47F200BA022F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457F526261A47F200BA022F /* SceneDelegate.swift */; };
 		0457F52C261A47F200BA022F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457F52A261A47F200BA022F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042C675000001952001AFA47 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0457F521261A47F200BA022F /* Café-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Café-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457F524261A47F200BA022F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0457F526261A47F200BA022F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		04A55714261BE58500B3DBF9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				042C675000001952001AFA47 /* background.jpg */,
 				0457F52F261A480B00BA022F /* LaunchScreen.storyboard */,
 				0457F52A261A47F200BA022F /* Main.storyboard */,
 				0457F52D261A480B00BA022F /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0457F531261A480B00BA022F /* LaunchScreen.storyboard in Resources */,
+				042C675100001952001AFA47 /* background.jpg in Resources */,
 				0457F52E261A480B00BA022F /* Assets.xcassets in Resources */,
 				0457F52C261A47F200BA022F /* Main.storyboard in Resources */,
 			);
