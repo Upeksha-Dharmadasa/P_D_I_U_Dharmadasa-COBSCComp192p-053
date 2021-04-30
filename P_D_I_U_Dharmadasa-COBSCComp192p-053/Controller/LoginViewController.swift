@@ -13,8 +13,8 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
     
     
-    @IBOutlet weak var txtlEmail: UITextField!
-    @IBOutlet weak var txtlPassword: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
     
 
     override func viewDidLoad() {
@@ -46,12 +46,12 @@ class LoginViewController: UIViewController {
     }
     
     func LoginValidate()-> Bool{
-        if txtlEmail.text == ""{
+        if txtEmail.text == ""{
                 let alert = UIAlertController(title: "Error", message: "Enter a valid Email and Password", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 return false;
-            }else if txtlPassword.text == ""{
+            }else if txtPassword.text == ""{
                 let alert = UIAlertController(title: "Error", message: "Enter a valid Email and Password", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
@@ -64,7 +64,7 @@ class LoginViewController: UIViewController {
         }
     
     func   LoginVerify(){
-        Auth.auth().signIn(withEmail: txtlEmail.text!, password: txtlPassword.text!) { [weak self] authResult, error in
+        Auth.auth().signIn(withEmail: txtEmail.text!, password: txtPassword.text!) { [weak self] authResult, error in
             guard self != nil else {return}
             if let error = error {
                 print(error.localizedDescription)
@@ -82,7 +82,7 @@ class LoginViewController: UIViewController {
     
     func Login()
     {
-        Auth.auth().signIn(withEmail: txtlEmail.text!, password: txtlPassword.text!) { (authResult, error) in
+        Auth.auth().signIn(withEmail: txtEmail.text!, password: txtPassword.text!) { (authResult, error) in
             if let error = error as NSError? {
             switch AuthErrorCode(rawValue: error.code) {
             case .operationNotAllowed:
@@ -127,14 +127,14 @@ class LoginViewController: UIViewController {
 
         func ForgetPassword()
            {
-               if txtlEmail.text?.isEmpty == true{
+               if txtEmail.text?.isEmpty == true{
                    let alert = UIAlertController(title: "Error", message: "Please enter your email", preferredStyle: .alert)
                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                    self.present(alert, animated: true, completion: nil)
                    return
                }
                
-               Auth.auth().sendPasswordReset(withEmail: txtlEmail.text!) { (error) in
+               Auth.auth().sendPasswordReset(withEmail: txtEmail.text!) { (error) in
                    
                if let error = error as NSError?
                {
