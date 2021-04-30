@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,15 @@
 		0457F52C261A47F200BA022F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457F52A261A47F200BA022F /* Main.storyboard */; };
 		0457F52E261A480B00BA022F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457F52D261A480B00BA022F /* Assets.xcassets */; };
 		0457F531261A480B00BA022F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457F52F261A480B00BA022F /* LaunchScreen.storyboard */; };
+		04704513263A906F001A27E4 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04704512263A906F001A27E4 /* StoreViewController.swift */; };
+		049B4408263B70690019AFFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049B4407263B70680019AFFC /* GoogleService-Info.plist */; };
+		049B440A263BD1CB0019AFFC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B4409263BD1CB0019AFFC /* SignUpViewController.swift */; };
+		049B440C263C13850019AFFC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B440B263C13850019AFFC /* LoginViewController.swift */; };
+		5A028F9C0D03229AEADA3639 /* Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3731399BEC01BEE11D66AB2 /* Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029893081F5903E59223969C /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.release.xcconfig"; path = "Target Support Files/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.release.xcconfig"; sourceTree = "<group>"; };
 		042C675000001952001AFA47 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0457F521261A47F200BA022F /* Café-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Café-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457F524261A47F200BA022F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		0457F52D261A480B00BA022F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0457F530261A480B00BA022F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0457F532261A480B00BA022F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04704512263A906F001A27E4 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		049B4407263B70680019AFFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049B4409263BD1CB0019AFFC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		049B440B263C13850019AFFC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3731399BEC01BEE11D66AB2 /* Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD44450287A725565CC40272 /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.debug.xcconfig"; path = "Target Support Files/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A028F9C0D03229AEADA3639 /* Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0457F523261A47F200BA022F /* P_D_I_U_Dharmadasa-COBSCComp192p-053 */,
 				0457F522261A47F200BA022F /* Products */,
+				D675FAD85B75B5A8EFD5E713 /* Pods */,
+				79CF29C151907F1E34343829 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +75,7 @@
 				04A55714261BE58500B3DBF9 /* View */,
 				04A55711261BE55400B3DBF9 /* Controller */,
 				0457F532261A480B00BA022F /* Info.plist */,
+				049B4407263B70680019AFFC /* GoogleService-Info.plist */,
 			);
 			path = "P_D_I_U_Dharmadasa-COBSCComp192p-053";
 			sourceTree = "<group>";
@@ -69,6 +85,9 @@
 			children = (
 				0457F524261A47F200BA022F /* AppDelegate.swift */,
 				0457F526261A47F200BA022F /* SceneDelegate.swift */,
+				04704512263A906F001A27E4 /* StoreViewController.swift */,
+				049B4409263BD1CB0019AFFC /* SignUpViewController.swift */,
+				049B440B263C13850019AFFC /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,6 +110,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		79CF29C151907F1E34343829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3731399BEC01BEE11D66AB2 /* Pods_P_D_I_U_Dharmadasa_COBSCComp192p_053.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D675FAD85B75B5A8EFD5E713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD44450287A725565CC40272 /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.debug.xcconfig */,
+				029893081F5903E59223969C /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0457F535261A480B00BA022F /* Build configuration list for PBXNativeTarget "P_D_I_U_Dharmadasa-COBSCComp192p-053" */;
 			buildPhases = (
+				73D65FED055C3501EE458799 /* [CP] Check Pods Manifest.lock */,
 				0457F51D261A47F200BA022F /* Sources */,
 				0457F51E261A47F200BA022F /* Frameworks */,
 				0457F51F261A47F200BA022F /* Resources */,
+				02B2580DD7ADEF41430B9769 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,12 +189,55 @@
 			files = (
 				0457F531261A480B00BA022F /* LaunchScreen.storyboard in Resources */,
 				042C675100001952001AFA47 /* background.jpg in Resources */,
+				049B4408263B70690019AFFC /* GoogleService-Info.plist in Resources */,
 				0457F52E261A480B00BA022F /* Assets.xcassets in Resources */,
 				0457F52C261A47F200BA022F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B2580DD7ADEF41430B9769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D65FED055C3501EE458799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0457F51D261A47F200BA022F /* Sources */ = {
@@ -165,6 +246,9 @@
 			files = (
 				0457F525261A47F200BA022F /* AppDelegate.swift in Sources */,
 				0457F527261A47F200BA022F /* SceneDelegate.swift in Sources */,
+				049B440A263BD1CB0019AFFC /* SignUpViewController.swift in Sources */,
+				049B440C263C13850019AFFC /* LoginViewController.swift in Sources */,
+				04704513263A906F001A27E4 /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +390,7 @@
 		};
 		0457F536261A480B00BA022F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD44450287A725565CC40272 /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +409,7 @@
 		};
 		0457F537261A480B00BA022F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029893081F5903E59223969C /* Pods-P_D_I_U_Dharmadasa-COBSCComp192p-053.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
