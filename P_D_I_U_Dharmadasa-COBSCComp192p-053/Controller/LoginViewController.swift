@@ -12,11 +12,10 @@ import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
-    
+
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         

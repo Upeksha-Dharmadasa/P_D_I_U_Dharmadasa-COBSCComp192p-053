@@ -109,6 +109,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="txtEmail" destination="iKw-tA-F8V" id="lMD-CF-c2t"/>
+                        <outlet property="txtPassword" destination="U6b-cN-yf7" id="4UA-Dy-cZf"/>
                         <outlet property="txtlEmail" destination="iKw-tA-F8V" id="GwJ-il-IpX"/>
                         <outlet property="txtlPassword" destination="U6b-cN-yf7" id="mln-Qk-fba"/>
                     </connections>
